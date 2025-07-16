@@ -21,6 +21,12 @@ The challenge lies in building a modular, intelligent, and lifelike AI system th
 
 This project aims to solve this challenge by creating an AI Conversational Voice Agent with Avatar, a multimodal system that enables real-time, interactive, speech-based conversations with a lifelike animated avatar.
 
+## Architecture Overview:
+
+<img width="1163" height="298" alt="Screenshot 2025-07-06 103440" src="https://github.com/user-attachments/assets/2c06afb7-6053-4439-a2e1-e6aa94dd6136" />
+
+The architecture of the AI Conversational Voice Agent with Avatar follows a modular pipeline that begins with the user's voice input, captured through a microphone. This input is first processed by a Speech-to-Text (STT) module using APIs like Deepgram, OpenAI, or fal.ai, which transcribes the spoken query into text. The transcribed text is then passed to a Large Language Model (LLM) or an Agentic LLM Workflow powered by platforms such as OpenAI, Anthropic, or LLaMA hosted on Groq or Cerebras—which interprets the intent, performs reasoning, and generates an intelligent response. This response is then fed into a Text-to-Speech (TTS) engine such as ElevenLabs, OpenAI TTS, or Cartesia TTS, converting the text reply into natural-sounding speech. Finally, this voice output is synchronized with a realistic animated avatar, driven by tools like Beyond Presence or SadTalker, to create an immersive system video or voice response. The combination of voice, reasoning, and animated visual feedback delivers a highly engaging and lifelike user experience.
+
 ## 🧠 Integrated Tools and Their Use Cases
 
 | 🧰 Tool Name                    | 🏢 Provider                 | 💡 Use Case Description                                           |
