@@ -37,5 +37,6 @@ The architecture of the AI Conversational Voice Agent with Avatar follows a modu
 | Avatar Animation              | Beyond Presence             | Displays a realistic avatar that visually mimics spoken responses |
 | Voice Activity Detection (VAD)| Silero                      | Detects when the user starts and stops speaking                   |
 | End-of-Utterance Detection    | AssemblyAI                  | Identifies the end of a user’s turn for natural conversation flow |
+|Real-Time Streaming            |LiveKit                      | Enables low-latency, bi-directional audio/video communication     | 
 
 
