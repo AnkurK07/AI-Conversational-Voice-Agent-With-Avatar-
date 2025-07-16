@@ -1,9 +1,36 @@
-livekit-agents
-livekit-plugins-openai
-livekit-plugins-silero
-python-dotenv
-livekit-api
-flask[async]
-flask
-flask-cors
-uvicorn
+# Core - Real-Time Audio/Video + LiveKit Suite
+accelerate==1.8.1
+livekit==1.0.11
+livekit-agents==1.1.5
+livekit-api==1.0.3
+livekit-protocol==1.0.4
+
+# LiveKit Plugins for Voice AI Functionality
+livekit-plugins-assemblyai==1.1.5         # (ASR, optional)
+livekit-plugins-bey==1.1.5                # (AI agent, optional)
+livekit-plugins-bithuman==1.0.16          # (avatar, optional)
+livekit-plugins-cartesia==1.1.5           # (voice improvement, optional)
+livekit-plugins-deepgram==1.1.5           # (ASR, optional)
+livekit-plugins-groq==1.1.5               # (LLM, optional)
+livekit-plugins-noise-cancellation==0.2.5 # (noise reduction)
+livekit-plugins-openai==1.0.16            # (OpenAI API, optional)
+livekit-plugins-silero==1.1.5             # (TTS/ASR, optional)
+livekit-plugins-turn-detector==1.1.5      # (voice activity detection)
+
+# Required dependencies for async, audio/video & REST API
+aiofiles==24.1.0
+aiohttp==3.12.13
+anyio==4.8.0
+numpy==2.2.6
+av==15.0.0
+sounddevice==0.5.2    
+grpcio==1.69.0
+requests==2.32.3
+httpx==0.28.1
+websocket-client==1.8.0
+websockets==14.1
+fastapi==0.115.6
+pydantic==2.10.5
+loguru==0.7.3
+openai==1.93.0 
+            
